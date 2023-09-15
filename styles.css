@@ -19,3 +19,8 @@ body {
 .no-bullet {
     list-style-type: none;
 }
+
+.menuLine {
+    border: 1px dashed silver;
+    width: 500px;
+}
