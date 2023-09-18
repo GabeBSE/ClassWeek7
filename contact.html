@@ -8,14 +8,26 @@
 </head>
 <body>
 
-    <h1>Contact</h1>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <div class="pages">
-        <h2><a href="index.html" class="page">Home</a>
-        <a href="about.html" class="page">About</href>
-        <a href="contact.html" class="page">Contact</a> 
-        <a href="menu.html" class="page">Menu</a>   <br><br><br></h2>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="index.html" class="active">Chop Till You Drop</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+
+    <h1>Contact</h1>
 
     
     <img src=https://media.istockphoto.com/id/1318289214/photo/butler-with-tray-on-black-background-closeup.jpg?s=612x612&w=0&k=20&c=sdu-SWUctnzCOQ-fcez0cUcXn8ragCVLZZLzdt6fryA=
@@ -40,10 +52,10 @@
     <input type="text" name="firstName" placeholder="First Name">
     <input type="text" name="lastName" placeholder="Last Name">
     <input type="text" name="email" placeholder="Email Address">
-    <input type="submit" value="Submit"   
+    <input type="submit" value="Submit">
          
 
 
-   
+   <script src="index.js"></script>
 </body>
 </html>
