@@ -7,8 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Page</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <title>Border Around HTML Page</title>
+    <style>
+        body {
+            border: 20px solid #f50505d8; /* Add a 5px solid black border around the body */
+            margin: 0; /* Remove default margin to ensure the border covers the entire viewport */
+            padding: 0; /* Remove default padding */
+        }
+    </style>
+
 </head>
 <body>
+
+    <style>
+        .long-line-break {  /*Long line break at very bottom of page*/
+            height: 100px; /* Adjust the height as needed to create the desired space */
+        }
+      </style>
 
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -72,6 +88,16 @@
             </li>
             <hr class="menuLine">
             <li>
+                <h2>Lobster Tail</h2>
+                <p>Our Lobster tails are soaked in our special house marinade and baked just right.<br> Served with butter sauce,
+                    lemon slices and topped off with a parsley garnish. </p>
+                <p>Price: $29.99</p>
+                <img src="https://therecipecritic.com/wp-content/uploads/2020/01/broiled_lobster2.jpg" 
+                alt="Lobster dish"
+                style="width: 200px; height: auto">
+            </li>
+            <hr class="menuLine">
+            <li>
                 <h2>Key Lime Pie</h2>
                 <p>Your taste buds will dance with delight during every luscious bite</p>
                 <p>A citrusy sweetness and creamy indulgence makes the perfect ending to your culinary journey</p>
@@ -82,6 +108,9 @@
             </li>
 
         </ul>
+
+        <div class="long-line-break"></div>
+
     <script src="index.js"></script>
 </body>
 </html>
