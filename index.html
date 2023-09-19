@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
+
+    <title>Border Around HTML Page</title>
+    <style>
+        body {
+            border: 20px solid #f50505d8; /* Add a 5px solid black border around the body */
+            margin: 0; /* Remove default margin to ensure the border covers the entire viewport */
+            padding: 0; /* Remove default padding */
+        }
+    </style>
+
+    <title>Event Booking Requirements</title> <!-- BOOKING -->
+    <style>
+        table {
+            border-collapse: collapse; /* Merge borders between table cells */
+            width: 80%; /* Set the width of the table */
+            margin: 20px auto; /* Center the table on the page */
+        }
+
+        th, td {
+            border: 1px solid #a59898; /* Add a border to table cells */
+            padding: 10px; /* Add some padding to cell content */
+            text-align: center; /* Center-align text within cells */
+        }
+
+        th {
+            background-color: #443d3d; /* Add a background color to header cells */
+        }
+    </style>
+
+
+    <style>
+      .image-container {
+          display: flex; /* Use flexbox to align images side by side */
+      }
+      .image-container img {
+          margin-right: 10px; /* Add some space between the images (adjust as needed) */
+      }
+  </style>
+
+<style>
+  .long-line-break {  /*Long line break at very bottom of page*/
+      height: 80px; /* Adjust the height as needed to create the desired space */
+  }
+</style>
+
     <link rel="stylesheet" type="text/css" href="styles.css">
+
 </head>
-<body>
+<body> 
 
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -36,22 +82,69 @@
             alt="Chop Till You Drop's first page."><br><br><br><br>
     <p>We are Chop Till You Drop. Where we Chop it like it's hot! We invite you to come out to visit our luxurious restaurant.<br> We have been
         in business for a little over one year and we continue to make family and friends happy.<br> Come choose from 
-        our well prepared dishes from seafood to our gourmet steaks cooked to your liking.
+        our well prepared dishes from gourmet seafood, burgers, salads, and steaks cooked to your liking.<br><br>
     </p>           
           <!--I still need to add a paragraph for the birthday and any occasion parties. I wonder if I should just 
         Take out the birthdays and leave Any Occasion with a list of type of events the restaurant will host-->
 
-        <h2>Birthday Parties</h2>
-    <img height="350px" src="https://www.therooftopguide.com/rooftop-news/Bilder/party-rooftop-level27.jpg"
-            alt="First page offering birthday party venue."><br><br><br>
-    <p>Need to write somethine else</p><br><br>
+        <h2>Any Occasion Parties</h2>
+    <divclass="image-container">
 
-    <h2>Any Occasion Parties</h2>
-    <img height="350px" src="https://mcluxurytravelgroup.com/wp-content/uploads/2019/07/parties.jpg"
-            alt="First page offering any occasion venue."><br><br><br>
-    <p>Need to write something else</p>
+       <img height="300px" src="https://www.therooftopguide.com/rooftop-news/Bilder/party-rooftop-level27.jpg"
+        alt="First page offering birthday party venue." alt="Picture of a rooftop birthday party at night.">
 
+        <img height="300px" src="https://mcluxurytravelgroup.com/wp-content/uploads/2019/07/parties.jpg" alt="Picture of
+        a group of friends at a party."><br><br>
+
+    </div> 
+    
+    <p>We are more than capable of handling parties of any occasion you can think of. You will be taken care of
+      by our well trained staff.<br> If you need help to throw an extravagant party, don't worry! We provide party planners
+      at a reasonable price.
+
+      If you're worried about the total cost, don't worry!<br> We provide great discounts for any occasion. We do ask
+      that you call in 1 month ahead for big party events (75+ guest). Our maximum capacity is 200 guest.<br>
+
+      Please see our contacts page for booking.
+
+      <p><mark>Please Note: Cancellations of 75+ guest MUST be at least 1 weeks notice. Events with 50 guests and below,
+        at least 3 days notice.<br> Events with 75+ guest same day notice will be charged a fee based off of a
+        percentage of event total cost.
+      </mark></p>
+      
+      <div class="long-line-break"></div>
+
+      <body>
+        <h1>Event Booking Requirements</h1>
+        <table>
+            <tr>
+                <th>Number of Guests</th>
+                <th>Booking Deadline</th>
+            </tr>
+            <tr>
+                <td>75 or more</td>
+                <td>1 month ahead of the event date</td>
+            </tr>
+            <tr>
+                <td>50 to 74</td>
+                <td>3 weeks ahead of the event date</td>
+            </tr>
+            <tr>
+                <td>30 to 49</td>
+                <td>2 weeks ahead of the event date</td>
+            </tr>
+            <tr>
+                <td>29 or fewer</td>
+                <td>1 week ahead of the event date</td>
+            </tr>
+        </table>
+      
+      
     </p>
+
+
+    <div class="long-line-break"></div>
+    
     
     
 
