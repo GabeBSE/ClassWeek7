@@ -56,7 +56,7 @@ body {
     top: 0;
   }
   
-  /* Add a grey background color on mouse-over */
+  /* Add a silver background color on mouse-over */
   .topnav a:hover {
     background-color: silver;
     color: black;
