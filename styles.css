@@ -67,4 +67,61 @@ body {
     background-color: black;
     color: white;
   }
+
+  /* Boarder Around HTML page*/
+
+body {
+  border: 8px solid #4e524dd8; /* Add a 5px solid black border around the body */
+  margin: 0; /* Remove default margin to ensure the border covers the entire viewport */
+  padding: 0; /* Remove default padding */
+}
+
+
+.long-line-break {  /*Long line break at very bottom of page*/
+  height: 200px; /* Adjust the height as needed to create the desired space */
+}
+
+
+
+/* Existing styles for .feature   THIS IS FOR THE ABOUT PAGE  */
+/* Styling for the custom-sized image within .image-container */
+
+.image-container .custom-image { /*This is to control the left party image size on index, for some reason it wasn't
+  matching the others*/
+  max-width: 20%; /* Adjust the width as needed */
+  height: auto;
+}
+
+
+.feature {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.feature img {
+  max-width: 30%;
+  height: auto;
+  border: 3px solid #fff;
+  border-radius: 10px; /* Rounded edges for images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature .text {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Other styles you want to apply globally */
+.long-line-break {
+  height: 80px;
+}
+
+
+
+
+
+
+
+  
   
