@@ -68,6 +68,18 @@ body {
     color: white;
   }
 
+
+  /* Space at bottom of ABOUT page last paragraph*/
+  .special-paragraph {
+    margin-bottom: 100px; /* Add margin to the bottom of this specific paragraph (adjust as needed) */
+  }
+
+    /* Index table*/
+  .special-table {
+    margin-bottom: 100px; /* Add margin to the bottom of the table (adjust as needed) */
+  }
+  
+
   /* Boarder Around HTML page*/
 
 body {
@@ -77,24 +89,13 @@ body {
 }
 
 
-.long-line-break {  /*Long line break at very bottom of page*/
-  height: 200px; /* Adjust the height as needed to create the desired space */
-}
-
-
 
 /* Existing styles for .feature   THIS IS FOR THE ABOUT PAGE  */
 /* Styling for the custom-sized image within .image-container */
 
-.image-container .custom-image { /*This is to control the left party image size on index, for some reason it wasn't
-  matching the others*/
-  max-width: 20%; /* Adjust the width as needed */
-  height: auto;
-}
-
 
 .feature {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -106,10 +107,12 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+
 .feature .text {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 1px;
+  font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 20px
 }
 
 /* Other styles you want to apply globally */
@@ -118,10 +121,17 @@ body {
 }
 
 
-
-
-
-
+.image-container {
+  border: solid rgb(10, 10, 10) 1px;   /*Mark's testing boarder for index page images. left black so it won't show*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Adjust the gap value as needed to create space between the images */
+  max-width: 100%; /* Adjust the maximum width of the images as needed */
+  height: auto;
 
   
+}
+
+
   
