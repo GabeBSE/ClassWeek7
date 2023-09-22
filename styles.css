@@ -115,7 +115,8 @@ body {
   margin-bottom: 20px
 }
 
-/* Other styles you want to apply globally */
+/* Other styles you want to apply globally - I couldn't get this to work on my index and menu page due to the table
+and last item on menu page.  */
 .long-line-break {
   height: 80px;
 }
@@ -126,7 +127,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px; /* Adjust the gap value as needed to create space between the images */
+  gap: 30px; /* Adjust the gap value as needed to create space between the two images on "About" page*/
   max-width: 100%; /* Adjust the maximum width of the images as needed */
   height: auto;
 
