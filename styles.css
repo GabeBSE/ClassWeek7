@@ -94,4 +94,72 @@ th {
     background-color: black;
     color: white;
   }
+
+
+  /* Space at bottom of ABOUT page last paragraph*/
+  .special-paragraph {
+    margin-bottom: 100px; /* Add margin to the bottom of this specific paragraph (adjust as needed) */
+  }
+
+    /* Index table*/
+  .special-table {
+    margin-bottom: 100px; /* Add margin to the bottom of the table (adjust as needed) */
+  }
+  
+
+  /* Boarder Around HTML page*/
+
+body {
+  border: 8px solid #4e524dd8; /* Add a 5px solid black border around the body */
+  margin: 0; /* Remove default margin to ensure the border covers the entire viewport */
+  padding: 0; /* Remove default padding */
+}
+
+
+
+/* Existing styles for .feature   THIS IS FOR THE ABOUT PAGE  */
+/* Styling for the custom-sized image within .image-container */
+
+
+.feature {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.feature img {
+  max-width: 30%;
+  height: auto;
+  border: 3px solid #fff;
+  border-radius: 10px; /* Rounded edges for images */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.feature .text {
+  margin-top: 1px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px
+}
+
+/* Other styles you want to apply globally - I couldn't get this to work on my index and menu page due to the table
+and last item on menu page.  */
+.long-line-break {
+  height: 80px;
+}
+
+
+.image-container {
+  border: solid rgb(10, 10, 10) 1px;   /*Mark's testing boarder for index page images. left black so it won't show*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Adjust the gap value as needed to create space between the two images on "About" page*/
+  max-width: 100%; /* Adjust the maximum width of the images as needed */
+  height: auto;
+
+  
+}
+
+
   
