@@ -2,7 +2,8 @@ body {
     background-color: black;
     color: red;
     text-align: center;
-    border: 20px solid red; /* Add a 5px solid black border around the body */
+    border: 20px solid red; /* Add a 20px solid red border around the body */
+    border-radius: 10px;
     margin: 0; /* Remove default margin to ensure the border covers the entire viewport */
     padding: 0; /* Remove default padding */
 }
@@ -175,4 +176,43 @@ and last item on menu page.  */
   background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
   color: white; /* Text color */
   padding: 10px 20px; /* Add padding for readability */
+}
+
+.drinkmenu-body {
+  background-image: url(https://images.unsplash.com/photo-1615887026505-00283cf0ff83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: red;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.drink {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  opacity: 0.98;
+  border: solid 2px silver;
+}
+
+.drink h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.drink p {
+  margin-top: 5px;
+  color: red;
+}
+
+.price {
+  font-weight: bold;
 }
