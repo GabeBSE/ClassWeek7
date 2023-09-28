@@ -161,5 +161,18 @@ and last item on menu page.  */
   
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  
+.overlay-heading {
+  position: absolute;
+  top: 50%; /* Position the heading at the vertical center of the container */
+  left: 50%; /* Position the heading at the horizontal center of the container */
+  transform: translate(-50%, -50%); /* Center the heading precisely */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Add padding for readability */
+}
