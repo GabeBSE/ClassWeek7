@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink Menu</title>
+    <style>
+        body {
+            background-image: url(https://images.unsplash.com/photo-1615887026505-00283cf0ff83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: red;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            background-color: black;
+            width: 25%;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .drink {
+            width: calc(33.33% - 20px);
+            margin: 10px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            opacity: 0.98;
+        }
+
+        .drink h2 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .drink p {
+            margin-top: 5px;
+            color: red;
+        }
+
+        .price {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Drink Menu</h1></center>
+    <div class="menu">
+        <div class="drink">
+            <h2>Classic Mojito</h2>
+            <p>A refreshing mix of fresh lime juice, mint leaves, sugar, and white rum.</p>
+            <p class="price">$8.99</p>
+        </div>
+        <div class="drink">
+            <h2>Pina Colossal</h2>
+            <p>A tropical blend of coconut cream, pineapple juice, and a colossal serving of white rum.</p>
+            <p class="price">$7.99</p>
+        </div>
+        <div class="drink">
+            <h2>Strawberry Daiquiri</h2>
+            <p>Strawberries, lime juice, sugar, and white rum make this a fruity delight.</p>
+            <p class="price">$9.49</p>
+        </div>
+        <div class="drink">
+            <h2>Blue Lagoon</h2>
+            <p>A vibrant cocktail with vodka, blue curaçao, and lemonade.</p>
+            <p class="price">$6.99</p>
+        </div>
+        <div class="drink">
+            <h2>AMF (Adios Motherf***er)</h2>
+            <p>A powerful mix of vodka, rum, tequila, gin, blue curaçao, and sour mix.</p>
+            <p class="price">$10.99</p>
+        </div>
+        <div class="drink">
+            <h2>Margarita</h2>
+            <p>A classic margarita with tequila, triple sec, lime juice, and a salted rim.</p>
+            <p class="price">$7.49</p>
+        </div>
+        <div class="drink">
+            <h2>Island Mai Tai</h2>
+            <p>A tropical delight with light rum, dark rum, lime juice, orgeat syrup, and grenadine.</p>
+            <p class="price">$9.99</p>
+        </div>
+    </div>
+</body>
+</html>
