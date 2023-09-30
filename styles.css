@@ -2,6 +2,34 @@ body {
     background-color: black;
     color: red;
     text-align: center;
+    border: 20px solid red; /* Add a 20px solid red border around the body */
+    border-radius: 10px;
+    margin: 0; /* Remove default margin to ensure the border covers the entire viewport */
+    padding: 0; /* Remove default padding */
+}
+.long-line-break {  /*Long line break at very bottom of page*/
+  height: 80px; /* Adjust the height as needed to create the desired space */
+}
+.image-container {
+  display: flex; /* Use flexbox to align images side by side */
+}
+.image-container img {
+  margin-right: 10px; /* Add some space between the images (adjust as needed) */
+}
+table {
+  border-collapse: collapse; /* Merge borders between table cells */
+  width: 80%; /* Set the width of the table */
+  margin: 20px auto; /* Center the table on the page */
+}
+
+th, td {
+  border: 1px solid #a59898; /* Add a border to table cells */
+  padding: 10px; /* Add some padding to cell content */
+  text-align: center; /* Center-align text within cells */
+}
+
+th {
+  background-color: #443d3d; /* Add a background color to header cells */
 }
 /*
 .pages {
@@ -134,5 +162,57 @@ and last item on menu page.  */
   
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  
+.overlay-heading {
+  position: absolute;
+  top: 50%; /* Position the heading at the vertical center of the container */
+  left: 50%; /* Position the heading at the horizontal center of the container */
+  transform: translate(-50%, -50%); /* Center the heading precisely */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Add padding for readability */
+}
+
+.drinkmenu-body {
+  background-image: url(https://images.unsplash.com/photo-1615887026505-00283cf0ff83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: red;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.drink {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  opacity: 0.98;
+  border: solid 2px silver;
+}
+
+.drink h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.drink p {
+  margin-top: 5px;
+  color: red;
+}
+
+.price {
+  font-weight: bold;
+}
